@@ -2,3 +2,4 @@
 
 ## 빌드 이후 build/dep_glad-prefix/src/dep_glad/CMakeLists.txt 파일의 첫 번째줄
 ## cmake_minimum_required(VERSION 3.13)로 수정
+## Project 루트 파일에서 컴파일
