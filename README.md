@@ -1,1 +1,1 @@
-# CMake Project example
+# This is CMake Project Template
