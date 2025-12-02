@@ -1,6 +1,13 @@
 cmake_minimum_required(VERSION 3.13)
 
-set(PROJECT_NAME CMake_Template)
+if(POLICY CMP0135)
+    cmake_policy(SET CMP0135 NEW)
+endif()
+
+# 모든 FetchContent 전에 정책 설정
+set(FETCHCONTENT_UPDATES_DISCONNECTED TRUE)  # 재다운로드 방지
+
+set(PROJECT_NAME CMake_I)
 set(CMAKE_CXX_STANDARD 17)
 
 set(WINDOW_NAME "Hello, OpenGL!")
